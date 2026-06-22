@@ -28,3 +28,14 @@ Bottom layer:
 ### Done in Onshape
 Isometric:
 ![Macragon assembly isometric view](/assets/images/cad_isometric_view.png)
+
+Top:
+![Macragon assembly top view](/assets/images/cad_top_view.png)
+
+Bottom:
+![Macragon assembly bottom view](/assets/images/cad_bottom_view.png)
+
+Side:
+![Macragon assembly side view](/assets/images/cad_side_view.png)
+(how low can it go?)
+
