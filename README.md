@@ -46,13 +46,15 @@ Side:
 
 ## Credits
 CAD completed in Onshape
+
 PCB design completed in EasyEDA Pro
+
 Zine designed in Canva
 
 Sources of knowledge and inspiration (for design, layout, and also just because I don't know how to organize a repo well):
 [NotARoomba's Cyberboard v2](https://blueprint.hackclub.com/projects/491)
 
-Hackclub's page on [good projects](https://fallout.hackclub.com/docs/project-resources/good-fallout-projects) and [zines](https://fallout.hackclub.com/docs/requirements/fallout-zine)
+Hackclub Fallout's pages on [good projects](https://fallout.hackclub.com/docs/project-resources/good-fallout-projects) and [zines](https://fallout.hackclub.com/docs/requirements/fallout-zine)
 
 [Hackclub Magazine](https://magazine.hackclub.com/)
 
@@ -61,6 +63,6 @@ Hackclub's page on [good projects](https://fallout.hackclub.com/docs/project-res
 
 [KMK Firmware Documentation](https://github.com/KMKfw/kmk_firmware)
 
-[Github's Basic Markdown Documentation][https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax]
+[Github's Basic Markdown Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 
