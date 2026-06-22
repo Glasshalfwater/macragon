@@ -9,6 +9,8 @@
 ## Origins:
 To be honest, my main motivation behind this project is mostly laziness :>. Long story short, my engineering class's keyboards are a bit annoying. To use them properly, one has to actually sit in their chair close to one's respective desk (it's more annoying than it sounds). The chair arms are too far apart to support the keyboard away from the desk, and the rubber pads on the bottom of the keyboard mean that dust and debris will collect on your pants if the keyboard is in your lap. So, what I wanted to do is to have a little mic I could carry around that functioned as a voice keyboard, so I could actually slouch in my chair further away from the desk. That, combined with me seeing a lot of other Hackclub projects being macropads, meant I decided to make a fusion between the two. Ideally, the goal was to learn how to read and make schematics, PCB design, and improve my coding skills. The (farfetched) dream would be to have a voice keyboard that could recognize CAD commands while also having buttons for manual functions. Unfortunately, implementing a voice keyboard that plugs in as a USB audio device was harder than I expected in Python (I decided to use KMK instead of QMK), and as such has been left off until v2 of the macragon. However, the macropad keys still work, and as a bonus they have RGB LEDs. Additionally, the hardware for the microphone is on the PCB, and QMK supports the microprocessor, etc., so adding a voice keyboard will simply be a firmware update.
 
+Another segment of motivation is just my fingers getting mad at me after I'd been creating hexagons and other repetitive tasks in Onshape without convienient keybinds for two hours a day for a week. (Yeah, I probably should have just unbound some other keybind I wasn't using.)
+
 
 ## Wiring Schematic
 ### Done in EasyEDA Pro
@@ -38,4 +40,19 @@ Bottom:
 Side:
 ![Macragon assembly side view](/assets/images/cad_side_view.png)
 (how low can it go?)
+
+## PCB Order
+
+## Credits
+CAD completed in Onshape
+PCB design completed in EasyEDA Pro
+Zine designed in Canva
+
+Sources of inspiration (for layout, and also just because I don't know how to organize a repo well):
+[NotARoomba's Cyberboard v2](https://blueprint.hackclub.com/projects/491)
+
+Hackclub's page on [good projects](https://fallout.hackclub.com/docs/project-resources/good-fallout-projects) and [zines](https://fallout.hackclub.com/docs/requirements/fallout-zine)
+
+[Hackclub Magazine](https://magazine.hackclub.com/)
+
 
