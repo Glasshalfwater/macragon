@@ -11,6 +11,7 @@ To be honest, my main motivation behind this project is mostly laziness :>. Long
 
 Another segment of motivation is just my fingers getting mad at me after I'd been creating hexagons and other repetitive tasks in Onshape without convienient keybinds for two hours a day for a week. (Yeah, I probably should have just unbound some other keybind I wasn't using.)
 
+On the other hand, choosing the shape of my macropad was [easy](https://www.youtube.com/watch?v=thOifuHs6eY).
 
 ## Wiring Schematic
 ### Done in EasyEDA Pro
@@ -48,11 +49,18 @@ CAD completed in Onshape
 PCB design completed in EasyEDA Pro
 Zine designed in Canva
 
-Sources of inspiration (for layout, and also just because I don't know how to organize a repo well):
+Sources of knowledge and inspiration (for design, layout, and also just because I don't know how to organize a repo well):
 [NotARoomba's Cyberboard v2](https://blueprint.hackclub.com/projects/491)
 
 Hackclub's page on [good projects](https://fallout.hackclub.com/docs/project-resources/good-fallout-projects) and [zines](https://fallout.hackclub.com/docs/requirements/fallout-zine)
 
 [Hackclub Magazine](https://magazine.hackclub.com/)
+
+[s-ol's 0xC macropad](https://hw.s-ol.nu/0xC.pad/)
+(how I found existing hexagonal keycaps)
+
+[KMK Firmware Documentation](https://github.com/KMKfw/kmk_firmware)
+
+[Github's Basic Markdown Documentation][https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax]
 
 
