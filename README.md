@@ -68,15 +68,15 @@ From JLCPCB:
 
 
 ## Credits
-CAD completed in Onshape
+### CAD completed in Onshape
 
-PCB design completed in EasyEDA Pro
+### PCB design completed in EasyEDA Pro
 
-Zine designed in Canva
+### Zine designed in Canva
 
-.csv to BOM conversion done with [convertcsv.com](convertcsv.com)
+### .csv to BOM conversion done with [convertcsv.com](convertcsv.com)
 
-Sources of knowledge and inspiration (for design, layout, and also just because I don't know how to organize a repo well):
+### Sources of knowledge and inspiration (for design, layout, and also just because I don't know how to organize a repo well):
 [NotARoomba's Cyberboard v2](https://blueprint.hackclub.com/projects/491)
 
 Hackclub Fallout's pages on [good projects](https://fallout.hackclub.com/docs/project-resources/good-fallout-projects) and [zines](https://fallout.hackclub.com/docs/requirements/fallout-zine)
