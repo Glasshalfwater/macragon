@@ -43,6 +43,8 @@ Side:
 (how low can it go?)
 
 ## PCB Order
+From JLCPCB:
+![JLCPCB Order](/assets/images/pcb_order.png)
 
 ## BOM
 |Quantity|Designator                                      |Price          |Footprint                    |Value/Purpose                                       |Manufacturer          |Supplier Part           |Supplier              |Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |FIELD10 |
