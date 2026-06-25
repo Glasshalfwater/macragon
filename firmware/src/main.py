@@ -3,8 +3,7 @@ Includes control of a RGB LED strip of SK6812MINI-Bs, and
 multiple keyboard layers that the LEDs are synced to, and
 the ability to toggle between them"""
 
-import board 
-import pio_i2s 
+import board  
 
 from kmk.kmk_keyboard import KMKKeyboard
 from kmk.keys import KC, Key
@@ -13,8 +12,7 @@ from kmk.scanners import MatrixScanner
 from kmk.modules.macros import Macros, Press, Release, Delay, Tap
 from kmk.modules.tapdance import TapDance
 from kmk.modules.layers import Layers
-from kmk.extensions.RGB import RGB
-from kmk.handlers.sequences import simple_key_sequence
+from kmk.extensions.rgb import RGB 
   
 NUM_LEDS = 7, 
 

@@ -1,4 +1,4 @@
-import keypad
+import firmware.src.kmk.scanners.keypad as keypad
 
 from kmk.scanners import Scanner
 

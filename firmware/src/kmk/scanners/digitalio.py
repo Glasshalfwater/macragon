@@ -1,6 +1,6 @@
-import digitalio
+import firmware.src.kmk.scanners.digitalio as digitalio
 
-from keypad import Event as KeyEvent
+from firmware.src.kmk.scanners.keypad import Event as KeyEvent
 
 from kmk.scanners import DiodeOrientation, Scanner
 
