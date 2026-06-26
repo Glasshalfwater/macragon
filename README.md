@@ -111,8 +111,10 @@ Note: KMK is under the GNU General Public Licence Version 3 (GPLv3)
 
 [Github's Basic Markdown Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-### Last but certainly not least,
-### Licenses:
+ 
+## Licenses:
+### NOTE: No further info below licenses
+
 Code belonging to this project is licensed under the MIT license, as per the [LICENSE](/LICENSE) file. Licenses for 3rd party libraries are below:
 
 Adafruit libraries are licensed under the MIT license:
