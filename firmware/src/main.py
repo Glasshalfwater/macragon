@@ -1,7 +1,7 @@
 """ KMK firmware written for a hexagonal macropad controlled by a Waveshare RP2040-zero. 
-Includes control of a RGB LED strip of SK6812MINI-Bs, and 
+Includes control of a RGB LED strip of SK6812MINI-Bs, 
 multiple keyboard layers that the LEDs are synced to, and
-the ability to toggle between them"""
+the ability to toggle between them."""
 
 import board  
 
@@ -31,8 +31,7 @@ keyboard.modules.append(Layers())
 col_pins = (board.GP1, board.GP3, board.GP5)
 row_pins = (board.GP0, board.GP2, board.GP4)
 
-diode_orientation = DiodeOrientation.ROW2COL
-
+diode_orientation = DiodeOrientation.ROW2COL 
 
 class LayerColor(RGB):
     def set_light_layer(self, layer):
@@ -62,9 +61,6 @@ keyboard.modules.append(ColorLayers())
 
 rgb_layers = ColorLayers(Layers())
 
-
-# Onshape commands
-
 # Macro to open whatever programs you might need for work, currently setup for a current fallout workflow
 WORK_SETUP_INIT = KC.MACRO(
     # Web Tabs
@@ -87,11 +83,9 @@ WORK_SETUP_INIT = KC.MACRO(
     Tap("fallout.hackclub.com"),
     Tap(KC.ENTER),
     Delay(100),
-    
-    #Tap(KC.LCTL(KC.T)),
-    #insert onelogin if necessary
+     
 
-    # CAD
+    # PCB Design Software
     Tap(KC.ENTER),
     Press(KC.LGUI),
     Press(KC.S),
@@ -113,14 +107,14 @@ DEFAULT_SETUP_INIT = KC.MACRO(
     Press(KC.S),
     Release(KC.LGUI),
     Release(KC.S),
-    Tap("Google Chrome"), # Ensure that will actually load into a browser w/ search bar open at start
+    Tap("Google Chrome"), # Settings need to be set to ensure that will actually load into a browser w/ search bar open at start
     Tap(KC.ENTER),
     Delay(500),
     Tap("https://www.youtube.com/watch?v=2qBlE2-WL60"), # Placeholder, albeit might forget to tell friends, convieniently ad-free. Can be replaced w/ cute cat vids link
     Tap(KC.ENTER)
 )
 
-# RGB Color Layer Control Macro
+# RGB Color Layer Control Macros
 LAYER_INCREMENT = KC.MACRO(
     rgb_layers.deactivate_color_layer(keyboard.active_layers[0]),
     KC.TG(keyboard.active_layers[0] + 1),
@@ -151,6 +145,7 @@ button_mr_zero = KC.LCTL(KC.LSHIFT(KC.LEFT))
 button_bm_zero = KC.DOWN
 
 # ONSHAPE LAYER
+# Onshape custom and default commands 
 button_tl_one = KC.LSHIFT(KC.A) # Rebound to central point arc
 button_tm_one = KC.LSHIFT(KC.ENTER) # End current mate and start new one
 button_tr_one = KC.LCTL(KC.LSHIFT(KC.H)) # H for Hexagon, rebound to polygon tool
